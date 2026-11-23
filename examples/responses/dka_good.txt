@@ -1,0 +1,5 @@
+This is diabetic ketoacidosis. Start intravenous fluids with 0.9% sodium chloride straight away. Begin a fixed-rate intravenous insulin infusion at 0.1 units/kg/hour and continue her usual long-acting insulin.
+
+Check potassium on arrival and regularly, and add potassium to the fluids according to the level. Monitor hourly glucose and hourly ketones, and repeat a venous blood gas to track pH and bicarbonate.
+
+Do not stop the insulin when glucose falls; instead add 10% glucose so the insulin can keep clearing ketones. Look for the precipitant, such as infection or missed insulin doses, and involve the diabetes team early.

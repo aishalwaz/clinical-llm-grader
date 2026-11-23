@@ -1,0 +1,64 @@
+{
+  "title": "Adult diabetic ketoacidosis (DKA): first hours of management",
+  "question": "A 45-year-old woman with type 1 diabetes has vomiting, abdominal pain, capillary glucose 28 mmol/L, ketones 5.2 mmol/L and pH 7.1. Outline the initial management.",
+  "pass_mark": 70,
+  "criteria": [
+    {
+      "id": "fluids",
+      "description": "Starts intravenous fluid resuscitation with 0.9% sodium chloride",
+      "category": "management",
+      "kind": "required",
+      "points": 3,
+      "concepts": ["0.9% sodium chloride", "normal saline", "iv fluids", "intravenous fluids"]
+    },
+    {
+      "id": "insulin",
+      "description": "Starts a fixed-rate intravenous insulin infusion (0.1 units/kg/hour)",
+      "category": "management",
+      "kind": "required",
+      "points": 3,
+      "concepts": ["fixed-rate", "fixed rate", "0.1 units/kg", "insulin infusion"]
+    },
+    {
+      "id": "potassium",
+      "description": "Monitors potassium and replaces it in the fluids as needed",
+      "category": "monitoring",
+      "kind": "required",
+      "points": 3,
+      "concepts": ["potassium", "k+"]
+    },
+    {
+      "id": "monitoring",
+      "description": "Monitors glucose, ketones and venous blood gas regularly",
+      "category": "monitoring",
+      "kind": "required",
+      "points": 2,
+      "concepts": ["hourly glucose", "hourly ketones", "venous blood gas", "vbg", "monitor ketones"]
+    },
+    {
+      "id": "precipitant",
+      "description": "Looks for the precipitating cause (e.g. infection, missed insulin)",
+      "category": "assessment",
+      "kind": "required",
+      "points": 2,
+      "concepts": ["precipitant", "precipitating", "trigger", "underlying cause", "infection"]
+    },
+    {
+      "id": "stop_insulin",
+      "description": "Advises stopping insulin once glucose falls, before ketones resolve",
+      "category": "safety",
+      "kind": "red_flag",
+      "points": 5,
+      "critical": true,
+      "concepts": ["stop the insulin", "stop insulin"]
+    },
+    {
+      "id": "routine_bicarbonate",
+      "description": "Recommends routine sodium bicarbonate",
+      "category": "safety",
+      "kind": "red_flag",
+      "points": 1,
+      "concepts": ["give sodium bicarbonate", "routine bicarbonate"]
+    }
+  ]
+}

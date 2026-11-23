@@ -1,0 +1,14 @@
+[project]
+name = "clinical-llm-grader"
+version = "0.1.0"
+description = "Score AI clinical answers against expert grading rubrics, with safety red flags."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Aisha Aliyu Waziri" }]
+
+[project.scripts]
+clinical-grader = "grader.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

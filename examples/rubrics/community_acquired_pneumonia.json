@@ -1,0 +1,72 @@
+{
+  "title": "Adult community-acquired pneumonia: initial management",
+  "question": "A 67-year-old man presents with three days of productive cough, fever of 38.6 C, breathlessness and right basal crackles. How should he be assessed and managed?",
+  "pass_mark": 70,
+  "criteria": [
+    {
+      "id": "severity_score",
+      "description": "Assesses severity with a validated score such as CURB-65",
+      "category": "assessment",
+      "kind": "required",
+      "points": 3,
+      "concepts": ["curb-65", "curb65", "crb-65", "severity score"]
+    },
+    {
+      "id": "chest_xray",
+      "description": "Requests a chest X-ray to confirm the diagnosis",
+      "category": "investigation",
+      "kind": "required",
+      "points": 2,
+      "concepts": ["chest x-ray", "chest radiograph", "cxr"]
+    },
+    {
+      "id": "bloods",
+      "description": "Requests baseline blood tests (FBC, urea and electrolytes, CRP)",
+      "category": "investigation",
+      "kind": "required",
+      "points": 2,
+      "concepts": ["full blood count", "fbc", "urea", "u&e", "crp", "c-reactive protein"]
+    },
+    {
+      "id": "oxygen",
+      "description": "Assesses oxygen saturation and gives oxygen to a target range if needed",
+      "category": "management",
+      "kind": "required",
+      "points": 2,
+      "concepts": ["oxygen saturation", "spo2", "target saturation", "94-98%", "supplemental oxygen"]
+    },
+    {
+      "id": "antibiotics",
+      "description": "Starts empirical antibiotics guided by severity and local guidelines",
+      "category": "management",
+      "kind": "required",
+      "points": 3,
+      "concepts": ["antibiotic", "antibiotics", "amoxicillin", "clarithromycin", "co-amoxiclav"]
+    },
+    {
+      "id": "review",
+      "description": "Plans clinical review and explains when to seek urgent help (safety-netting)",
+      "category": "safety",
+      "kind": "required",
+      "points": 2,
+      "concepts": ["review", "reassess", "safety net", "seek urgent", "return if"]
+    },
+    {
+      "id": "withhold_antibiotics",
+      "description": "Advises against antibiotics for suspected bacterial pneumonia",
+      "category": "safety",
+      "kind": "red_flag",
+      "points": 5,
+      "critical": true,
+      "concepts": ["no antibiotics", "antibiotics are not needed", "antibiotics are not required"]
+    },
+    {
+      "id": "routine_ct",
+      "description": "Recommends routine CT chest as the first imaging test",
+      "category": "investigation",
+      "kind": "red_flag",
+      "points": 1,
+      "concepts": ["ct chest first", "routine ct"]
+    }
+  ]
+}
