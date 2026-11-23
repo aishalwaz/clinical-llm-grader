@@ -1,4 +1,5 @@
 # Clinical LLM Response Grader
+[![Tests](https://github.com/aishalwaz/clinical-llm-grader/actions/workflows/tests.yml/badge.svg)](https://github.com/aishalwaz/clinical-llm-grader/actions/workflows/tests.yml)
 
 A lightweight Python tool that scores an AI model's answer to a clinical question against an expert-written grading rubric. It checks whether the answer covers what a safe, competent clinician would include, and it flags unsafe advice that should fail the answer outright.
 
